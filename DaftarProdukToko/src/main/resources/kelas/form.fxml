@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="kelas.controller.FormController"
+            stylesheets="@styles/app.css">
+
+    <top>
+        <HBox spacing="15" styleClass="header">
+            <VBox spacing="5" HBox.hgrow="ALWAYS">
+                <Label text="♡ My Little Store"
+                       styleClass="title"/>
+
+                <Label text="Tambahkan produk baru ke tokomu"
+                       styleClass="muted"/>
+            </VBox>
+
+            <Button text="Lihat Daftar"
+                    onAction="#bukaDaftar"/>
+        </HBox>
+    </top>
+
+    <center>
+        <ScrollPane fitToWidth="true">
+            <content>
+                <VBox alignment="TOP_CENTER"
+                      styleClass="page">
+
+                    <VBox spacing="15"
+                          maxWidth="480"
+                          styleClass="card">
+
+                        <Label text="Tambah Produk Baru ♡"
+                               styleClass="title"/>
+
+                        <Label text="Lengkapi informasi produk di bawah ini"
+                               styleClass="muted"/>
+
+                        <Label text="Kode Produk"/>
+
+                        <TextField fx:id="kodeField"
+                                   promptText="Contoh: P001"/>
+
+                        <Label text="Nama Produk"/>
+
+                        <TextField fx:id="namaField"
+                                   promptText="Contoh: Roti"/>
+
+                        <Label text="Kategori"/>
+
+                        <ComboBox fx:id="kategoriBox"
+                                  maxWidth="Infinity"/>
+
+                        <Label text="Harga Produk (Rp)"/>
+
+                        <TextField fx:id="hargaField"
+                                   promptText="Contoh: 15000"/>
+
+                        <Button text="♡ Simpan Produk"
+                                onAction="#simpan"
+                                styleClass="button-primary"
+                                maxWidth="Infinity"/>
+
+                        <Label fx:id="pesanLabel"
+                               wrapText="true"
+                               styleClass="error"/>
+
+                    </VBox>
+                </VBox>
+            </content>
+        </ScrollPane>
+    </center>
+
+</BorderPane>
