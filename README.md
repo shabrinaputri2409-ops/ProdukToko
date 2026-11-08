@@ -21,7 +21,7 @@ Aplikasi ini dibuat menggunakan **JavaFX** dan **Maven** untuk membantu proses p
 1. **Clone Repositori**  
    Unduh repositori dari GitHub ke komputer Anda:
    ```bash
-   git clone https://github.com/username-kamu/nama-repo-toko.git
+   git clone https://github.com/shabrinaputri2409-ops/ProdukToko.git
    ```
 
 2. **Masuk ke Direktori Proyek**  
@@ -43,19 +43,19 @@ Aplikasi ini dibuat menggunakan **JavaFX** dan **Maven** untuk membantu proses p
 ## Tampilan Aplikasi
 
 #### 1. Formulir Tambah Produk
-<img src="/DaftarProdukToko/screenshots/1.png" alt="Form Tambah Produk" width="450">
+<img src="/DaftarProdukToko/screenshots/5.png" alt="Form Tambah Produk" width="450">
 
 #### 2. Halaman Detail Produk
-<img src="/DaftarProdukToko/screenshots/2.png" alt="Detail Produk" width="450">
+<img src="/DaftarProdukToko/screenshots/4.png" alt="Detail Produk" width="450">
 
 #### 3. Validasi Form (Nama Kosong Ditolak)
 <img src="/DaftarProdukToko/screenshots/3.png" alt="Validasi Nama Kosong" width="450">
 
 #### 4. Validasi Form (Harga Negatif/Nol Ditolak)
-<img src="/DaftarProdukToko/screenshots/4.png" alt="Validasi Harga Invalid" width="450">
+<img src="/DaftarProdukToko/screenshots/2.png" alt="Validasi Harga Invalid" width="450">
 
 #### 5. Tabel Utama Daftar Produk
-<img src="/DaftarProdukToko/screenshots/5.png" alt="Tabel Daftar Produk" width="450">
+<img src="/DaftarProdukToko/screenshots/1.png" alt="Tabel Daftar Produk" width="450">
 
 #### 6. Pencarian Produk Berdasarkan Nama
 <img src="/DaftarProdukToko/screenshots/6.png" alt="Pencarian Produk" width="450">
